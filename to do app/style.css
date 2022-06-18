@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500&family=Pacifico&display=swap');
+body{
+ font-family: 'Jost', sans-serif;
+ width: 300px;
+ border-radius: 15px;
+ background-color:#bbbbbb46;
+}
+h3,h4{
+ text-align: center;
+ font-style: bold;
+ font-family: 'Pacifico', cursive;
+ color: #2E2E2E;
+}
+
+#inputAndBtn{
+ display: flex;
+ justify-content: center;
+ margin: auto;
+}
+
+#inputTask{
+ padding: 8px 16px;
+   border: 1px solid gray;
+   border-right: none;
+   border-radius: 5px 0px 0px 5px;
+   font-size: 16px;
+ font-family: 'jost';
+}
+
+.delBtn{
+ font-weight: bolder;
+   font-size: 20px;
+   background-color: #ffffff00;
+   border: 1px;
+ color: #FF503B;
+}
+
+#addBtn{
+ background-color: #6BCEFF;
+ border: 1px solid gray;
+ border-radius: 0px 5px 5px 0px;
+ padding: 8px 16px;
+ color: #1A1A1A;
+ border-left: none;
+ font-family: 'jost';
+}
+.chakBox{
+/*   width: 50px; */
+
+}
+#listRoper{
+ margin: 0vw 15vw;
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "To Do",
+  "version": "0.0.1",
+
+
+  "action": {
+    "default_popup": "popup.html",
+    "deafult_title": "To Do",
+    "default_icon": "logo.png"
+  },
+  "icons": {
+    "128": "logo.png"
+  },
+  "permissions": ["tabs","activeTab"]
+}
